@@ -27,12 +27,9 @@ const AuthLayout = ({ children }) => {
       <div className="relative z-10 bg-white/10 backdrop-blur-md border-b border-white/20 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center shadow-lg transform hover:scale-110 transition duration-300">
-              <FiShield className="text-white text-lg" />
-            </div>
             <div className="text-center">
               <h1 className="text-sm font-bold text-white drop-shadow-md">
-                Telegram Sanapati
+                GO-TTE
               </h1>
               <p className="text-xs text-blue-100">Kabupaten Lingga</p>
             </div>

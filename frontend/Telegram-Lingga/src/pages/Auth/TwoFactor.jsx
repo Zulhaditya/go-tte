@@ -122,7 +122,7 @@ const TwoFactor = () => {
                 Autentikasi Dua Faktor
               </h1>
               <p className="text-xs text-purple-100">
-                Telegram Sanapati Kabupaten Lingga
+                GO-TTE Kabupaten Lingga
               </p>
             </div>
           </div>

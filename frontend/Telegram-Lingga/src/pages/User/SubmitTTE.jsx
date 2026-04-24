@@ -71,14 +71,14 @@ const SubmitTTE = () => {
               <span className="mr-3">✓</span>
               <span>
                 <strong>Foto Selfie:</strong> Foto diri Anda (format JPG/PNG,
-                maksimal 5MB)
+                maksimal 1MB)
               </span>
             </li>
             <li className="flex items-start">
               <span className="mr-3">✓</span>
               <span>
                 <strong>Surat Keterangan Instansi:</strong> Dokumen PDF dari
-                institusi (maksimal 10MB)
+                institusi (maksimal 2MB)
               </span>
             </li>
           </ul>

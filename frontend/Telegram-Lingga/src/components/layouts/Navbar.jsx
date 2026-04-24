@@ -20,7 +20,7 @@ const Navbar = ({ activeMenu }) => {
       </button>
 
       <h2 className="text-lg font-medium text-black">
-        Telegram Kabupaten Lingga
+        GO-TTE Kabupaten Lingga
       </h2>
 
       {openSideMenu && (

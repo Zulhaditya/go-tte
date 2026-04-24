@@ -91,13 +91,13 @@ const Login = () => {
                 Portal Login
               </h1>
               <p className="text-xs text-blue-100">
-                Telegram Sanapati Kabupaten Lingga
+                GO-TTE Kabupaten Lingga
               </p>
             </div>
           </div>
           <p className="text-sm text-gray-200 mt-4 leading-relaxed">
             Masukkan kredensial akun instansi Anda untuk mengakses platform
-            Telegram Sanapati dan layanan TTE (Tanda Tangan Elektronik).
+            layanan pengelolaan TTE (Tanda Tangan Elektronik).
           </p>
         </div>
 

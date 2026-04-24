@@ -17,27 +17,27 @@ export const SIDE_MENU_DATA = [
   },
   {
     id: "02",
+    label: "Kelola TTE",
+    icon: LuFileText,
+    path: "/admin/tte",
+  },
+  {
+    id: "03",
     label: "Manajemen Telegram",
     icon: LuClipboardCheck,
     path: "/admin/telegram",
   },
   {
-    id: "03",
+    id: "04",
     label: "Buat Telegram",
     icon: LuSquarePlus,
     path: "/admin/create-telegram",
   },
   {
-    id: "04",
+    id: "05",
     label: "Instansi",
     icon: LuUsers,
     path: "/admin/users",
-  },
-  {
-    id: "05",
-    label: "Kelola TTE",
-    icon: LuFileText,
-    path: "/admin/tte",
   },
   {
     id: "06",

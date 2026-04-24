@@ -107,13 +107,12 @@ const Register = () => {
                 Pendaftaran Akun
               </h1>
               <p className="text-xs text-green-100">
-                Telegram Sanapati Kabupaten Lingga
+                GO-TTE Kabupaten Lingga
               </p>
             </div>
           </div>
           <p className="text-sm text-gray-200 mt-4 leading-relaxed">
-            Daftarkan instansi Anda untuk mendapatkan akses ke platform Telegram
-            Sanapati dan layanan TTE.
+            Daftarkan instansi Anda untuk mendapatkan akses ke platform layanan TTE.
           </p>
         </div>
 

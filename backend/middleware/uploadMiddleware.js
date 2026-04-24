@@ -110,19 +110,19 @@ const upload = multer({
 const uploadTTESelfie = multer({
   storage: tteSelfieStorage,
   fileFilter: tteSelfieFileFilter,
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+  limits: { fileSize: 1 * 1024 * 1024 }, // 1MB limit
 });
 
 const uploadTTESurat = multer({
   storage: tteSuratStorage,
   fileFilter: tteSuratFileFilter,
-  limits: { fileSize: 10 * 1024 * 1024 }, // 10MB limit
+  limits: { fileSize: 2 * 1024 * 1024 }, // 2MB limit
 });
 
 const uploadTTESignature = multer({
   storage: tteSignatureStorage,
   fileFilter: tteSignatureFileFilter,
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+  limits: { fileSize: 1 * 1024 * 1024 }, // 1MB limit
 });
 
 // Middleware untuk upload multiple files untuk TTE submit
@@ -154,7 +154,7 @@ const uploadTTESubmit = multer({
       }
     }
   },
-  limits: { fileSize: 10 * 1024 * 1024 }, // 10MB limit untuk surat, tapi akan validate di controller
+  limits: { fileSize: 2 * 1024 * 1024 }, // 2MB limit untuk surat, tapi akan validate di controller
 }).fields([
   { name: "fotoSelfie", maxCount: 1 },
   { name: "suratKeterangan", maxCount: 1 },

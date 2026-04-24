@@ -1,7 +1,7 @@
 import React from "react";
 import {
   FiFacebook,
-  FiTwitter,
+  FiAperture,
   FiMail,
   FiPhone,
   FiMapPin,
@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-white font-semibold text-lg">Tentang Kami</h3>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Platform Telegram Sanapati Kabupaten Lingga menyediakan layanan
+              Platform GO-TTE Kabupaten Lingga menyediakan layanan
               digital untuk proses administrasi dan TTE (Tanda Tangan
               Elektronik) yang aman dan terpercaya.
             </p>
@@ -71,16 +71,12 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <FiMapPin className="text-blue-400 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400">
-                  Jl. Pendidikan No. 1, Daik Lingga, Kabupaten Lingga
+                  Jl. Engku Aman Kelang, Daik, Kabupaten Lingga, Kepulauan Riau.
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <FiPhone className="text-blue-400 flex-shrink-0" />
-                <span className="text-gray-400">(0773) 21341</span>
-              </li>
-              <li className="flex items-center gap-3">
                 <FiMail className="text-blue-400 flex-shrink-0" />
-                <span className="text-gray-400">info@lingga.go.id</span>
+                <span className="ext-gray-400">diskominfo@linggakab.go.id</span>
               </li>
             </ul>
           </div>
@@ -90,22 +86,25 @@ const Footer = () => {
             <h3 className="text-white font-semibold text-lg">Ikuti Kami</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/diskominfo.lingga/?locale=id_ID"
+                target="_blank"
                 className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition duration-200"
                 title="Facebook"
               >
                 <FiFacebook className="text-gray-300" />
               </a>
               <a
-                href="#"
+                href="https://diskominfo.linggakab.go.id/"
                 className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition duration-200"
-                title="Twitter"
+                target="_blank"
+                title="Website"
               >
-                <FiTwitter className="text-gray-300" />
+                <FiAperture className="text-gray-300" />
               </a>
               <a
-                href="#"
+                href="mailto:diskominfo@linggakab.go.id"
                 className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition duration-200"
+                target="_blank"
                 title="Email"
               >
                 <FiMail className="text-gray-300" />
@@ -131,32 +130,13 @@ const Footer = () => {
 
             {/* Additional Links */}
             <div className="text-sm text-gray-400 md:text-right space-x-4">
-              <a
-                href="#"
-                className="hover:text-blue-400 transition duration-200"
-              >
-                Kebijakan Privasi
-              </a>
-              <span>•</span>
-              <a
-                href="#"
-                className="hover:text-blue-400 transition duration-200"
-              >
-                Syarat & Ketentuan
-              </a>
-              <span>•</span>
-              <a
-                href="#"
-                className="hover:text-blue-400 transition duration-200"
-              >
-                Bantuan
-              </a>
+
             </div>
           </div>
 
           {/* Version Info */}
           <div className="text-xs text-gray-500 mt-4 pt-4 border-t border-slate-700">
-            <p>Platform Telegram Sanapati v1.0 - Powered by Diskominfo</p>
+            <p>Platform GO-TTE v1.0 - Powered by Diskominfo Kabupaten Lingga</p>
           </div>
         </div>
       </div>

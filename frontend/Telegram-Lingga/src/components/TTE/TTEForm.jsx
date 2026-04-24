@@ -309,7 +309,7 @@ const TTEForm = ({ onSubmit, loading }) => {
         <div className="mb-6">
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Foto Selfie <span className="text-red-500">*</span>
-            <span className="text-xs text-gray-500 ml-1">(Maks 5MB)</span>
+            <span className="text-xs text-gray-500 ml-1">(Maks 1MB)</span>
           </label>
 
           {!previews.fotoSelfie ? (
@@ -319,7 +319,7 @@ const TTEForm = ({ onSubmit, loading }) => {
                 Klik untuk upload foto selfie
               </span>
               <span className="text-xs text-gray-500 mt-1">
-                Format: JPG, PNG (Maks 5MB)
+                Format: JPG, PNG (Maks 1MB)
               </span>
               <input
                 type="file"
@@ -358,7 +358,7 @@ const TTEForm = ({ onSubmit, loading }) => {
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Surat Keterangan dari Instansi{" "}
             <span className="text-red-500">*</span>
-            <span className="text-xs text-gray-500 ml-1">(Maks 10MB)</span>
+            <span className="text-xs text-gray-500 ml-1">(Maks 2MB)</span>
           </label>
 
           {!files.suratKeterangan ? (
@@ -368,7 +368,7 @@ const TTEForm = ({ onSubmit, loading }) => {
                 Klik untuk upload surat keterangan
               </span>
               <span className="text-xs text-gray-500 mt-1">
-                Format: PDF (Maks 10MB)
+                Format: PDF (Maks 2MB)
               </span>
               <input
                 type="file"
